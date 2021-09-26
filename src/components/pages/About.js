@@ -14,18 +14,19 @@ const About = () => {
         https://api.github.com/users/username/repos <br />
       </p>
       <ul>
-        Components
-        <li>App</li>
-        <li>pages</li>
-        <li>layout</li>
-        <li>repos</li>
-        <li>users</li>
+        <strong>Components</strong>
+        <li>- App</li>
+        <li>- pages</li>
+        <li>- layout</li>
+        <li>- repos</li>
+        <li>- users</li>
       </ul>
       <ul>
-        Pages
-        <li>Home</li>
-        <li>About</li>
-        <li>Not Found</li>
+        <strong>Pages</strong>
+
+        <li>- Home</li>
+        <li>- About</li>
+        <li>- Not Found</li>
       </ul>
     </Fragment>
   );
