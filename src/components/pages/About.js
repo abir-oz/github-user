@@ -6,13 +6,27 @@ const About = () => {
       <h1>About This App</h1>
       <p>App to search Github users</p>
       <p>
-        GitHub Profile Finder Using React and GitHub User API API Endpoints that
-        has been used: https://api.github.com/users
-        https://api.github.com/search/users?q=search_term
-        https://api.github.com/users/username
-        https://api.github.com/users/username/repos Components - App - pages -
-        layout - repos - users Pages - Home - About - Not Found
+        GitHub Profile Finder Using React and GitHub User API <br />
+        API Endpoints that has been used: <br /> https://api.github.com/users{' '}
+        <br />
+        https://api.github.com/search/users?q=search_term <br />
+        https://api.github.com/users/username <br />
+        https://api.github.com/users/username/repos <br />
       </p>
+      <ul>
+        Components
+        <li>App</li>
+        <li>pages</li>
+        <li>layout</li>
+        <li>repos</li>
+        <li>users</li>
+      </ul>
+      <ul>
+        Pages
+        <li>Home</li>
+        <li>About</li>
+        <li>Not Found</li>
+      </ul>
     </Fragment>
   );
 };
